@@ -1,0 +1,43 @@
+//transition function
+@mixin transition($property,$second,$easing){
+	-webkit-transition: $property $second $easing;
+	   -moz-transition: $property $second $easing;
+	    -ms-transition: $property $second $easing;
+	     -o-transition: $property $second $easing;
+	        transition: $property $second $easing;
+}
+
+//vendor prefix function
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+      -ms-#{$name}: #{$argument};
+     -moz-#{$name}: #{$argument};
+       -o-#{$name}: #{$argument};
+          #{$name}: #{$argument};
+}
+
+/* @mixin ff(\$font,\$font-style){
+	font-family: \$font, \$font-style;
+	// font-weight: \$font-weight;
+} */
+@mixin ff($fn,$fs,$fw){
+	@font-face {
+		font-family: $fn;
+		src: url($fn+'.eot');
+		src: url($fn+'.eot?#iefix') format('embedded-opentype'),
+			 url($fn+'.woff') format('woff'),
+			 url($fn+'.ttf') format('truetype'),
+			 url($fn+'.svg#'+$fn) format('svg');
+		font-style: $fs;
+		font-weight: $fw;
+	}
+}
+//way use vendor-prefix function
+// p {
+//   @include vendor-prefix(hyphens, auto)
+// }
+
+/* @mixin impff(\$font,\$fn){
+	font-family: \$font;
+	src: url("'../../font/"+ \$font + "/"+ \$fn + "'");
+} */

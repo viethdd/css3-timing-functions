@@ -1,0 +1,20 @@
+$slides: (1: $med-blue,
+					2: $dark-gray,
+					3: $med-green,
+					4: $med-yellow,
+					5: $med-brown,
+					6: $sky-blue,
+					7: $med-orange,
+					8: $med-gray,
+					9: $dark-brown
+);
+
+$easing:(
+	ease        : ease,
+	ease-in     : ease-in,
+	ease-out    : ease-out,
+	ease-in-out : ease-in-out,
+	linear      : linear,
+	step-start  : steps(5, start),
+	step-end    : steps(5, end)
+);

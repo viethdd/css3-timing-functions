@@ -1,0 +1,58 @@
+.slide16-content-1{
+	background : $dark-green;
+	box-shadow : 15px 15px rgba($lite-gray,.3) ;
+	.slide-text-wrapper{
+		background : #000;
+		width      : 400px;
+		position   : relative;
+		span{
+			margin-left: 20px;
+			a{
+				text-decoration: none;
+				border-bottom: 1px solid;
+			}
+		}
+	}
+}
+.slide16-content-2{
+	background : $dark-green;
+	position   : relative;
+	.slide-text-wrapper{
+		background : $med-gray;
+		width      : 400px;
+		position   : relative;
+	}
+}
+
+.slide16{
+	.step-start{
+		position: relative;
+		top: 60px;
+		.ball-start{
+			animation: stepStart 4s steps(5,start) infinite;
+		}
+		@keyframes stepStart {
+			0%{
+				left: 0;
+			}
+			100%{
+				left: 325px;
+			}
+		}
+	}
+	.step-end{
+		position: relative;
+		top: 140px;
+		.ball-end{
+			animation: stepEnd 4s steps(5,end) infinite;
+		}
+		@keyframes stepEnd {
+			0%{
+				left: 0;
+			}
+			100%{
+				left: 355px;
+			}
+		}
+	}
+}

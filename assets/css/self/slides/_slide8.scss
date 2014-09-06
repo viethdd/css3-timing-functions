@@ -1,0 +1,30 @@
+.slide8-content-1{
+	background : $lite-green;
+	box-shadow : 15px 15px rgba($lite-gray,.3) ;
+	.slide-text-wrapper{
+
+		width      : 500px;
+		position   : relative;
+		overflow: hidden;
+		img{
+			width: 350px;
+
+		}
+	}
+}
+.slide8-content-2{
+	background : $dark-green;
+	position   : relative;
+	.slide-text-wrapper{
+		.syntax-wrapper{
+		}
+
+	}
+}
+
+.slide8-content-2{
+	.easing-position-wrapper{
+		h4{
+		}
+	}
+}

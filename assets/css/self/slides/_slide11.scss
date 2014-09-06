@@ -1,0 +1,18 @@
+.slide11-content-1{
+	background : $dark-green;
+	box-shadow : 15px 15px rgba($lite-gray,.3) ;
+	.slide-text-wrapper{
+		background : #000;
+		width      : 400px;
+		position   : relative;
+	}
+}
+.slide11-content-2{
+	background : $dark-green;
+	position   : relative;
+	.slide-text-wrapper{
+		background : $med-gray;
+		width      : 400px;
+		position   : relative;
+	}
+}

@@ -1,0 +1,45 @@
+.slide7-content-1{
+	background : $dark-green;
+	box-shadow : 15px 15px rgba($lite-gray,.3) ;
+	margin-top: 15px;
+	.slide-text-wrapper{
+		background : #000;
+		width      : 400px;
+		position   : relative;
+	}
+}
+.slide7-content-2{
+	background : $dark-green;
+	position   : relative;
+	.slide-text-wrapper{
+		background : $med-gray;
+		width      : 400px;
+		position   : relative;
+	}
+}
+
+.slide7{
+	ul{
+		padding-top: 10px;
+		li{
+			font-size: .9rem;
+			width: 350px;
+			margin-bottom: 5px;
+			code{
+				// display: block;
+				width: 250px;
+			}
+		}
+
+	}
+	.point1{
+		color: $med-green;
+	}
+	.point2{
+		color: $med-red;
+	}
+	h4,p{
+		position : relative;
+		display  : block;
+	}
+}			

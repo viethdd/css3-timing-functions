@@ -1,0 +1,35 @@
+.slide17-content-1{
+	background : $galaxy-blue;
+	box-shadow : 15px 15px rgba($lite-gray,.3) ;
+	.slide-text-wrapper{
+		/* background : #000; */
+		width      : 400px;
+		position   : relative;
+
+		.citation{
+			width           : 500px;
+			height          : 50px;
+			list-style-type : square;
+			margin-bottom   : 20px;
+			.citation-title{
+				margin-bottom: -7px;
+				font-weight: 400;
+			}
+			.link{
+				/* margin-top: -10px; */
+				font-size: .8em;
+			}
+		}
+	}
+}
+.slide17-content-2{
+	background : $galaxy-blue;
+	position   : relative;
+
+	.slide-text-wrapper{
+		display: none;
+		background : $med-gray;
+		width      : 400px;
+		position   : relative;
+	}
+}

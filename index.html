@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Research Based Design</title>
+	<link rel="stylesheet" href="assets/css/vendor/normalize.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="assets/css/vendor/960_16_col.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="assets/css/self/master.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src ="assets/js/vendor/jquery-2.0.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src ="assets/js/vendor/jquery-ui-1.9.2.js" type="text/javascript" charset="utf-8"></script>
+	<script src ="assets/js/self/master.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- <script src="assets/js/vendor/prefixfree.min.js" type="text/javascript" charset="utf-8"></script> -->
+</head>
+<body class="container_16 alpha">
+<!--top bar with buttons-->
+<article class="top-bar">
+	<span class="top-bar-btn top-bar-btn1 top-btn-active"data-index='1'>
+		<div class="btn-number-circle">
+			<p class="btn-number">1</p>
+		</div>
+		<div class="btn-title btn-title-active">Introduction</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn2" data-index='2'>
+		<div class="btn-number-circle">
+			<p class="btn-number">2</p>
+		</div>
+		<div class="btn-title">Define</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn3" data-index='3'>
+		<div class="btn-number-circle">
+			<p class="btn-number">3</p>
+		</div>
+		<div class="btn-title">Where</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn4" data-index='4'>
+		<div class="btn-number-circle">
+			<p class="btn-number">4</p>
+		</div>
+		<div class="btn-title">How</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn5" data-index='5'>
+		<div class="btn-number-circle">
+			<p class="btn-number">5</p>
+		</div>
+		<div class="btn-title">Visual Examples</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn6" data-index='6'>
+		<div class="btn-number-circle">
+			<p class="btn-number">6</p>
+		</div>
+		<div class="btn-title">Usage</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn7" data-index='7'>
+		<div class="btn-number-circle">
+			<p class="btn-number">7</p>
+		</div>
+		<div class="btn-title">cubic-bezier() function</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn8" data-index='8'>
+		<div class="btn-number-circle">
+			<p class="btn-number">8</p>
+		</div>
+		<div class="btn-title">ease</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn9" data-index='9'>
+		<div class="btn-number-circle">
+			<p class="btn-number">9</p>
+		</div>
+		<div class="btn-title">ease-In</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn10" data-index='10'>
+		<div class="btn-number-circle">
+			<p class="btn-number">10</p>
+		</div>
+		<div class="btn-title">ease-Out</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn11" data-index='11'>
+		<div class="btn-number-circle">
+			<p class="btn-number">11</p>
+		</div>
+		<div class="btn-title">ease-In-Out</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn12" data-index='12'>
+		<div class="btn-number-circle">
+			<p class="btn-number">12</p>
+		</div>
+		<div class="btn-title">linear</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+	<span class="top-bar-btn top-bar-btn13" data-index='13'>
+		<div class="btn-number-circle">
+			<p class="btn-number">13</p>
+		</div>
+		<div class="btn-title">Customization</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+
+	<span class="top-bar-btn top-bar-btn14" data-index='14'>
+		<div class="btn-number-circle">
+			<p class="btn-number">14</p>
+		</div>
+		<div class="btn-title">step() function</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+
+	<span class="top-bar-btn top-bar-btn15" data-index='15'>
+		<div class="btn-number-circle">
+			<p class="btn-number">15</p>
+		</div>
+		<div class="btn-title">step() function Usage</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+
+	<span class="top-bar-btn top-bar-btn16" data-index='16'>
+		<div class="btn-number-circle">
+			<p class="btn-number">16</p>
+		</div>
+		<div class="btn-title">step-start & step-end</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+
+	<span class="top-bar-btn top-bar-btn17" data-index='17'>
+		<div class="btn-number-circle">
+			<p class="btn-number">17</p>
+		</div>
+		<div class="btn-title">Citation</div>
+		<div class="top-btn-active-shadow"></div>
+	</span>
+
+	<div class="credit-wrapper">
+		<span>Research, Design & Develop by <a href="github.com"><img src="assets/img/png/github-48-black.png" alt=""><strong>Viet Ho</strong></a></span>
+		
+	</div>
+</article>
+
+<main>
+<!--slide1-->
+<article class="slide slide1" data-index='1'>
+	<div class="ball"></div>
+	<section class="hero">
+		<p class="first-line line">UNDERSTANDING</p>
+		<p class="second-line line"><span id="css3"><span id='css'>CSS</span>3</span> TIMING FUNCTIONs <span class="text"></span></p>
+	</section>
+	<section class="intro-p-wrapper">
+		<p class="intro">
+			Due to the fast development of web technologies, especially CSS3 which carries the timing function that helps HTML elements changing or animating smoothly. I decided to research how timing function is working in web.
+		</p>
+	</section>
+	<section class="explore">
+		<p class="exp-text">explore</p>
+		<div class="exp-circle"></div>
+	</section>
+</article>
+
+<!--slide2-->
+<article class="easing-slide slide slide2" data-index='2'>
+	<section class="slide-content-wrapper slide2-content-1">
+		<!--create title circle-->
+		<div class="circle-wrapper">
+			<div class="circle-inside">2</div>
+			<div class="slide-title">What is it?</div>
+			<div class="left-shadow"></div>
+			<div class="right-shadow"></div>
+		</div>
+
+	<div class="slide2-text-wrapper slide-text-wrapper">
+		<p class="p-text p-text-what">
+			Timing functions are applied in CSS3 to help HTML elements animation's speed to be faster or slower in a specified duration which the Web Designers can control.
+		</p>
+		<ul class="ul-text ul-text-what">
+			<li class="li-items li-items-what1">Cubic-Bezier()</li>
+			<li class="li-items li-items-what2">Step()</li>
+		</ul>
+	</div>
+
+	</section>
+
+	<section class="slide-content-wrapper slide2-content-2">
+	<!--create title circle-->
+	<div class="circle-wrapper">
+	<!-- 	<div class="circle-inside"></div> -->
+		<div class="slide-title">Why do we use that?</div>
+		<div class="slide2-left-shadow-2"></div>
+		<div class="slide2-right-shadow-2"></div>
+	</div>
+	<div class="slide2-text-wrapper slide-text-wrapper" data-info="align">
+		<ul class="ul-text ul-text-why">
+			<li class="li-items li-items-why1">CSS2 does not support timing funtions</li>
+			<li class="li-items li-items-why2">Simpler codes than using Javascript</li>
+			<li class="li-items li-items-why3">Make HTML elements move & animate smoother and more flexible</li>
+		</ul>
+	</div>
+	</section>
+</article>
+
+<!--slide3-->
+<article class="easing-slide slide slide3" data-index='3'>
+	<section class="slide-content-wrapper content-wide slide3-content-1">
+		<!--create title circle-->
+		<div class="circle-wrapper">
+			<div class="circle-inside">3</div>
+			<div class="slide-title">It works on <code>desktop</code> and <code>mobile</code> device major browsers - <a target="_blank" href="http://caniuse.com/#search=animation">CanIUse.com</a></div>
+			<div class="left-shadow"></div>
+			<div class="right-shadow"></div>
+		</div>
+
+		<section class="slide3-text-wrapper slide-text-wrapper">
+			<div class="devices-wrapper">
+			<img src="assets/img/devices/desktop-icon.svg" alt="" class="device large-screen desktop">
+			<img src="assets/img/devices/laptop-icon.svg" alt="" class="device large-screen laptop">
+			<!-- <img src="assets/img/devices/ipad-icon.svg" alt="" class="device small-screen ipad">
+			<img src="assets/img/devices/iphone-icon.svg" alt="" class="device small-screen iphone"> -->
+			</div>
+			<div class="browser-version-wrapper">
+				<div class="browser-wrapper">
+					<ul class="browser-list">
+						<li class="browser-icon browser-icon1">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/ie.png" alt="" class="browser ie-icon">
+						</li>
+						<li class="browser-icon browser-icon2">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/firefox.png" alt="" class="browser firefox-icon">
+						</li>
+						<li class="browser-icon browser-icon3">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/chrome.png" alt="" class="browser chrome-icon">
+						</li>
+						<li class="browser-icon browser-icon4">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/safari.png" alt="" class="browser safari-icon">
+						</li>
+						<li class="browser-icon browser-icon5">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/opera.png" alt="" class="browser opera-icon">
+						</li>
+					</ul>
+					<ul class="browser-name-wrapper">
+						<li class="browser-name ie">Internet Explorer</li>
+						<li class="browser-name ff">Firefox</li>
+						<li class="browser-name chrome">Chrome</li>
+						<li class="browser-name safari">Safari</li>
+						<li class="browser-name opera">Opera</li>
+					</ul>
+				</div>
+				<div class="version-wrapper">
+					<span class="version version1">8<span class="plus">+</span></span>
+					<span class="version version2">28<span class="plus">+</span></span>
+					<span class="version version3">31<span class="plus">+</span></span>
+					<span class="version version4">5.1</span>
+					<span class="version version5">10<span class="plus">+</span></span>
+				</div>
+			</div>
+		<!-- <section class="bottom-strip bottom-strip3">
+			<div class="bottom-banner"></div>
+			<div class="bottom-left-shadow"></div>
+			<div class="bottom-right-shadow"></div>
+		</section> -->
+	</section>
+<!-- <div class="text-content-shadow"></div> -->
+</section>
+
+
+<section class="slide-content-wrapper slide3-content-2">
+		<!--create title circle-->
+	<div class="slide3-text-wrapper slide-text-wrapper" data-info="align">
+		<div class="devices-wrapper">
+		<img src="assets/img/devices/ipad-icon.svg" alt="" class="device small-screen ipad">
+		<img src="assets/img/devices/iphone-icon.svg" alt="" class="device small-screen iphone">
+		</div>
+			<div class="browser-version-wrapper">
+				<div class="browser-wrapper">
+					<ul class="browser-list">
+						<li class="browser-icon browser-icon1">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/ie.png" alt="" class="browser ie-icon">
+						</li>
+						<li class="browser-icon browser-icon2">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/android.png" alt="" class="browser android-icon">
+						</li>
+						<li class="browser-icon browser-icon3">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/chrome.png" alt="" class="browser chrome-icon">
+						</li>
+						<li class="browser-icon browser-icon4">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/safari.png" alt="" class="browser safari-icon">
+						</li>
+						<li class="browser-icon browser-icon5 bb-icon">
+							<div class="browser-circle"></div>
+							<img src="assets/img/browsers/png/blackberry.png" alt="" class="browser bb-icon">
+						</li>
+					</ul>
+					<ul class="browser-name-wrapper">
+						<li class="browser-name ie">Internet Explorer</li>
+						<li class="browser-name android">Android</li>
+						<li class="browser-name mchrome">Chrome</li>
+						<li class="browser-name msafari">Safari</li>
+						<li class="browser-name bb">Blackberry</li>
+					</ul>
+				</div>
+				<div class="version-wrapper">
+					<span class="version version1">10</span>
+					<span class="version version2">2.1<span class="plus">+</span></span>
+					<span class="version version3">31<span class="plus">+</span></span>
+					<span class="version version4">3.2<span class="plus">+</span></span>
+					<span class="version version5">7<span class="plus">+</span></span>
+				</div>
+			</div>
+		</div>
+		<div class="text-content-shadow"></div>
+	</section>
+</article>
+
+<!--slide4-->
+<article class="easing-slide slide slide4" data-index='4'>
+	<section class="slide-content-wrapper content-wide slide4-content-1">
+		<!--create title circle-->
+		<div class="circle-wrapper">
+			<div class="circle-inside">4</div>
+			<div class="slide-title">CSS3 Transition Implementation</div>
+			<div class="left-shadow"></div>
+			<div class="right-shadow"></div>
+		</div>
+
+		<section class="slide-text-wrapper slide4-text-wrapper">
+			<!-- <h3 class="title"></h3> -->
+			<section class="code-bg code-bg1">
+				<p class="code-title">Syntax</p>
+				<span class="code-text code-text1">element {<br>&nbsp; &nbsp; &nbsp;transition<span style="color:#fff">*</span>: <i>property</i>  <span class="code-duration">duration</span>  <span class="code-ease">easing</span>;<br>}</span>
+			</section>
+			<section class="code-bg code-bg2">
+				<p class="code-title">Example</p>
+				<span class="code-text code-text1">element {<br>&nbsp; &nbsp; &nbsp;transition<span style="color:#fff">*</span>: <i>width</i>  <span class="code-duration">1.5s</span>  <span class="code-ease">ease-in-out</span>;<br>}</span>
+			</section>
+		</section>
+		<div class="text-content-shadow"></div>
+		<section class="bottom-strip">
+			<div class="bottom-banner">Try out more on <a href="http://codepen.io">http://codepen.io</a></div>
+			<div class="bottom-left-shadow"></div>
+			<div class="bottom-right-shadow"></div>
+		</section>
+	</section>
+
+	<section class="slide-content-wrapper slide4-content-2">
+		<section class="slide-text-wrapper slide4-text-wrapper">
+		<div class="keyword-wrapper">
+			<div class="ease-keyword"><code>easing</code> keywords:</div>
+			<div class="ease-keyword"><code>ease</code><code>ease-in</code><code>ease-out</code><code>ease-in-out</code><code>linear</code><code>step-start</code><code>start-end</code></div>
+		</div>
+		<div class="note">
+			<span>*</span> We can also apply this to CSS3 <code>animation</code> property.
+		</div>
+
+	</section>
+	<div class="content-shadow"></div>
+</section>
+</article>
+
+<!--slide5-->
+<article class="slide slide5" data-index='5'>
+	<section class="slide-content-wrapper content-wide slide5-content-1">
+		<!--create title circle-->
+		<div class="circle-wrapper">
+			<div class="circle-inside">5</div>
+			<div class="slide-title"><code>Easing</code> Phases & Examples</div>
+			<div class="left-shadow"></div>
+			<div class="right-shadow"></div>
+		</div>
+		<!-- <h3 class="title"></h3> -->
+		<!-- text wrapper 5 -->
+
+		<section class="slide-text-wrapper slide5-text-wrapper">
+			<section class="easing-column easing-column1">
+				<div class="examples-line examples-line1"><code class="ease-keyword">ease</code></div>
+				<div class="examples-line examples-line2"><code class="ease-keyword">ease-in</code></div>
+				<div class="examples-line examples-line3"><code class="ease-keyword">ease-out</code></div>
+				<div class="examples-line examples-line4"><code class="ease-keyword">ease-in-out</code></div>
+				<div class="examples-line examples-line5"><code class="ease-keyword">linear</code></div>
+				<div class="examples-line examples-line6"><code class="ease-keyword">step-start</code></div>
+				<div class="examples-line examples-line7"><code class="ease-keyword">step-end</code></div>
+			</section>
+			<section class="easing-column easing-column2">
+				<div class="easing-phases easing-begin">
+					<h5 class="easing-title">Begining</h5>
+					<ul class="easing-begin-wrapper easing-phase-wrapper">
+						<li class="easing-phase-item easing-begin-ease">fast</li>
+						<li class="easing-phase-item easing-begin-easeout">normal</li>
+						<li class="easing-phase-item easing-begin-easein">accelerate smoothly</li>
+						<li class="easing-phase-item easing-begin-easeio">smoothly</li>
+						<li class="easing-phase-item easing-begin-linear">slightly</li>
+						<li class="easing-phase-item easing-begin-stepstart">equally steps</li>
+						<li class="easing-phase-item easing-begin-stepend">equally steps<br>lately start</li>
+					</ul>
+				</div>
+				<div class="easing-phases easing-end">
+					<h5 class="easing-title">Ending</h5>
+					<ul class="easing-end-wrapper easing-phase-wrapper">
+						<li class ="easing-phase-item easing-end-ease">slowdown</li>
+						<li class ="easing-phase-item easing-end-easeout">accelerate smoothly</li>
+						<li class ="easing-phase-item easing-end-easein">slowdown smoothly</li>
+						<li class ="easing-phase-item easing-end-easeio">smoothly</li>
+						<li class ="easing-phase-item easing-end-linear">slightly</li>
+						<li class ="easing-phase-item easing-end-stepstart">equally steps</li>
+						<li class ="easing-phase-item easing-end-stepend">equally steps</li>
+					</ul>
+				</div>
+			</section>
+
+		</section>
+	</section>
+	<!-- slide5 content 2 -->
+	<section class="slide-content-wrapper slide5-content-2">
+		<ul class="examples-run-wrapper">
+			<li class="examples-run-line examples-run-line1">
+				<button class="run run1">Hover me</button>
+				<div class="runway runway1">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-ease"></div>
+				</div>
+			</li>
+			<li class="examples-run-line examples-run-line1">
+				<button class="run run2">Hover me</button>
+				<div class="runway runway2">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-ease-in"></div>
+				</div>
+			</li>
+
+			<li class="examples-run-line examples-run-line1">
+				<button class="run run3">Hover me</button>
+				<div class="runway runway3">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-ease-out"></div>
+				</div>
+			</li>
+
+			<li class="examples-run-line examples-run-line1">
+				<button class="run run4">Hover me</button>
+				<div class="runway runway4">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-ease-in-out"></div>
+				</div>
+			</li>
+
+			<li class="examples-run-line examples-run-line1">
+				<button class="run run5">Hover me</button>
+				<div class="runway runway5">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-linear"></div>
+				</div>
+			</li>
+
+			<li class="examples-run-line examples-run-line1">
+				<button class="run run6">Hover me</button>
+				<div class="runway runway6">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-step-start"></div>
+				</div>
+			</li>
+
+			<li class="examples-run-line examples-run-line1">
+				<button class="run run7">Hover me</button>
+				<div class="runway runway7">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-step-end"></div>
+				</div>
+			</li>
+		</ul>
+
+	</section>
+	<section class="bottom-strip">
+		<div class="bottom-banner">See more customized <code>easing</code> at <a target="_blank" href="http://easings.net">http://easings.net</a></div>
+		<div class="bottom-left-shadow"></div>
+		<div class="bottom-right-shadow"></div>
+	</section>
+</article>
+
+<!--slide6-->
+<article class="easing-slide slide slide6" data-index='6'>
+	<section class="slide-content-wrapper content-wide slide6-content-1">
+		<!--create title circle-->
+		<div class="circle-wrapper">
+			<div class="circle-inside">6</div>
+			<div class="slide-title">Common uses of <strong>CSS3</strong> timing functions </div>
+			<div class="left-shadow"></div>
+			<div class="right-shadow"></div>
+		</div>
+		<section class="slide-text-wrapper slide6-text-wrapper">
+			<ul>
+				<li class="usage1"><strong>Animate</strong> a single or multiple elements <strong>after</strong> a button <strong>trigger</strong></li>
+				<li class="usage2">Make elements animate <strong>themself</strong> in a <strong>certain time</strong> or <strong>infinity</strong> without trigger </li>
+				<li class="usage3"><strong>Swiping</strong> / <strong>Touching</strong> on Mobile screen</li>
+				<li class="usage4"><strong>Splash</strong> / <strong>Loading</strong> screen</li>
+			</ul>
+		</section>
+	</section>
+	<section class="slide-content-wrapper slide6-content-2">
+		<section class="slide-text-wrapper slide6-text-wrapper">
+			<ul>
+				<li class="usage1"><strong>Parallax</strong> effect</li>
+				<li class="usage2">Browser <strong>srolling</strong></li>
+				<li class="usage3">HTML5 <strong>games</strong></li>
+				<!-- <li class="usage4"><strong>Splash</strong> / <strong>Loading</strong> screen</li> -->
+			</ul>
+		</section>
+	</section>
+</article>
+
+<!--slide7-->
+<article class="easing-slide slide slide7" data-index='7'>
+	<section class="slide-content-wrapper slide7-content-1">
+		<!--create title circle-->
+		<div class="circle-wrapper">
+			<div class="circle-inside">7</div>
+			<div class="slide-title"><code>cubic-bezier()</code> function</div>
+			<div class="left-shadow"></div>
+			<div class="right-shadow"></div>
+
+		</div>
+		<section class="slide-text-wrapper slide7-text-wrapper">
+			<img src="assets/img/png/table2d-03.png" alt="" class="diagram-img">
+		</section>
+		<section class="bottom-strip">
+			<div class="bottom-banner">Try out more on <a target="_blank" href="http://cubic-bezier.com">http://cubic-bezier.com</a> by <a href="http://lea.verou.me/">Lea Verou</a></div>
+			<div class="bottom-left-shadow"></div>
+			<div class="bottom-right-shadow"></div>
+		</section>
+	</section>
+
+	<section class="slide-content-wrapper slide7-content-2">
+		<section class="slide-text-wrapper slide7-text-wrapper">
+			<ul>
+				<li>Cubic-Bezier() is used to customize the CSS3 timing function manually</li>
+				<li>The timing curve is formed with 4 points:  <strong>starting (0)</strong>, <strong>point(1)</strong>, <strong>point(2)</strong>, and <strong>ending(3)</strong></li>
+				<li>The <strong>starting (0)</strong> and <strong>ending (3)</strong> points are set as <strong>default</strong>: (0,0) and (1,1)</li>
+				<li>So the cubic-bezier() syntax will only include <strong>point 1</strong> & <strong>point 2</strong>: <code>cubic-bezier( <span class="point1">x<sub>1</sub></span>,<span class="point1">y<sub>1</sub></span>, <span class="point2">x<sub>2</sub></span>,<span class="point2">y<sub>2</sub></span> )</code></li>
+				<li><strong>_x-axis</strong>: describes <strong>how long</strong> an element animates from <strong>starting</strong> point to <strong>ending</strong> point which applied on <strong>Point 1</strong> before moving to <strong>Point 2</strong>. Common used : <strong>1 second</strong></li>
+				<li>|<strong>y-axis</strong>:  respresents <strong>progression (%)</strong> of an element in <strong>x</strong> time of <strong>Point 1</strong> or <strong>Point 2</strong></li>
+				
+			</ul>
+		</section>
+		<!-- <div class="content-shadow"></div> -->
+
+	</section>
+</article>
+
+<!--slide8-->
+<article class="slide slide8 easing-slide" data-index='8'>
+	<section class="slide-content-wrapper slide8-content-1">
+		<!--create title circle-->
+		<div class="circle-wrapper">
+			<div class="circle-inside">8</div>
+			<div class="slide-title">Examine <code>ease</code> easing</div>
+			<div class="left-shadow"></div>
+			<div class="right-shadow"></div>
+		</div>
+
+		<section class="slide-text-wrapper slide8-text-wrapper">
+			<img src="assets/img/png/table2d-03.png" alt="" class="diagram-img">
+
+		</section>
+		<div class="text-content-shadow"></div>
+		<section class="bottom-strip">
+			<div class="bottom-banner">Try out more on <a target="_blank" href="http://cubic-bezier.com">http://cubic-bezier.com</a> by <a href="http://lea.verou.me/">Lea Verou</a></div>
+			<div class="bottom-left-shadow"></div>
+			<div class="bottom-right-shadow"></div>
+		</section>
+	</section>
+	<section class="slide-content-wrapper slide8-content-2">
+		<section class="slide-text-wrapper slide8-text-wrapper">
+			<div class="syntax-wrapper">
+				<h4>Cubic-Bezier Syntax:</h4>
+				<code>cubic-bezier( <span class="point1">x<sub>1</sub></span>,<span class="point1">y<sub>1</sub></span>, <span class="point2">x<sub>2</sub></span>,<span class="point2">y<sub>2</sub></span> )</code>
+			</div>
+			<div class="easing-position-wrapper">
+				<h4><code>ease</code> position:</h4>
+				<code>cubic-bezier( <span class="point1">0.25</span>,<span class="point1">0.1</span>, <span class="point2">0.25</span>,<span class="point2">1.00</span> )</code>
+			</div>
+			<ul class="easing-describe">
+				<li>Describe: </li>
+				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>25%</strong> in <strong>0.1</strong> second</li>
+				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>25%</strong> in <strong>1.0</strong> second </li>
+			</ul>
+			<button class="run run7">Hover me <div class="hover-shadow"></div></button>
+			<div class="runway runway1">
+				<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+				<div class="ball ball-ease"></div>
+			</div>
+		</section>
+	<div class="content-shadow"></div>
+	</section>
+</article>
+
+<!--slide9-->
+<article class="slide slide9 easing-slide" data-index='9'>
+	<section class="slide-content-wrapper slide8-content-1">
+		<!--create title circle-->
+		<div class="circle-wrapper">
+			<div class="circle-inside">9</div>
+			<div class="slide-title">Examine <code>ease-in</code> easing</div>
+			<div class="left-shadow"></div>
+			<div class="right-shadow"></div>
+		</div>
+
+		<section class="slide-text-wrapper slide8-text-wrapper">
+			<img src="assets/img/png/table2d-03.png" alt="" class="diagram-img">
+
+		</section>
+		<div class="text-content-shadow"></div>
+		<section class="bottom-strip">
+			<div class="bottom-banner">Try out more on <a target="_blank" href="http://cubic-bezier.com">http://cubic-bezier.com</a> by <a href="http://lea.verou.me/">Lea Verou</a></div>
+			<div class="bottom-left-shadow"></div>
+			<div class="bottom-right-shadow"></div>
+		</section>
+	</section>
+	<section class="slide-content-wrapper slide8-content-2">
+		<section class="slide-text-wrapper slide8-text-wrapper">
+			<div class="syntax-wrapper">
+				<h4>Cubic-Bezier Syntax:</h4>
+				<code>cubic-bezier( <span class="point1">x<sub>1</sub></span>,<span class="point1">y<sub>1</sub></span>, <span class="point2">x<sub>2</sub></span>,<span class="point2">y<sub>2</sub></span> )</code>
+			</div>
+			<div class="easing-position-wrapper">
+				<h4><code>ease-in</code> position:</h4>
+				<code>cubic-bezier( <span class="point1">0.42</span>,<span class="point1">0.00</span>, <span class="point2">1.00</span>,<span class="point2">1.00</span> )</code>
+			</div>
+			<ul class="easing-describe">
+				<li>Describe: </li>
+				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>0.0%</strong> in <strong>0.42</strong> second</li>
+				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>100%</strong> in <strong>1.0</strong> second </li>
+			</ul>
+			<button class="run run7">Hover me <div class="hover-shadow"></div></button>
+			<div class="runway runway1">
+				<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+				<div class="ball ball-ease"></div>
+			</div>
+		</section>
+	<div class="content-shadow"></div>
+
+	</section>
+</article>
+
+<!--slide 10-->
+	<article class="slide slide10 easing-slide" data-index='10'>
+		<section class="slide-content-wrapper slide8-content-1">
+			<!--create title circle-->
+			<div class="circle-wrapper">
+				<div class="circle-inside">10</div>
+				<div class="slide-title">Examine <code>ease-out</code> easing</div>
+				<div class="left-shadow"></div>
+				<div class="right-shadow"></div>
+			</div>
+
+			<section class="slide-text-wrapper slide8-text-wrapper">
+				<img src="assets/img/png/table2d-03.png" alt="" class="diagram-img">
+
+			</section>
+			<div class="text-content-shadow"></div>
+			<section class="bottom-strip">
+				<div class="bottom-banner">Try out more on <a target="_blank" href="http://cubic-bezier.com">http://cubic-bezier.com</a> by <a href="http://lea.verou.me/">Lea Verou</a></div>
+				<div class="bottom-left-shadow"></div>
+				<div class="bottom-right-shadow"></div>
+			</section>
+		</section>
+		<section class="slide-content-wrapper slide8-content-2">
+			<section class="slide-text-wrapper slide8-text-wrapper">
+				<div class="syntax-wrapper">
+					<h4>Cubic-Bezier Syntax:</h4>
+					<code>cubic-bezier( <span class="point1">x<sub>1</sub></span>,<span class="point1">y<sub>1</sub></span>, <span class="point2">x<sub>2</sub></span>,<span class="point2">y<sub>2</sub></span> )</code>
+				</div>
+				<div class="easing-position-wrapper">
+					<h4><code>ease-out</code> position:</h4>
+					<code>cubic-bezier( <span class="point1">0.00</span>,<span class="point1">0.00</span>, <span class="point2">0.58</span>,<span class="point2">1.00</span> )</code>
+				</div>
+				<ul class="easing-describe">
+				<li>Describe: </li>
+				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>0.0%</strong> in <strong>0.0</strong> second</li>
+				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>100%</strong> in <strong>0.58</strong> second </li>
+			</ul>
+				<button class="run run7">Hover me <div class="hover-shadow"></div></button>
+				<div class="runway runway1">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-ease"></div>
+				</div>
+			</section>
+		<div class="content-shadow"></div>
+
+		</section>
+	</article>
+
+<!--slide 11-->
+	<article class="slide slide11 easing-slide" data-index='11'>
+		<section class="slide-content-wrapper slide8-content-1">
+			<!--create title circle-->
+			<div class="circle-wrapper">
+				<div class="circle-inside">11</div>
+				<div class="slide-title">Examine <code>ease-in-out</code> easing</div>
+				<div class="left-shadow"></div>
+				<div class="right-shadow"></div>
+			</div>
+
+			<section class="slide-text-wrapper slide8-text-wrapper">
+				<img src="assets/img/png/table2d-03.png" alt="" class="diagram-img">
+
+			</section>
+			<div class="text-content-shadow"></div>
+			<section class="bottom-strip">
+				<div class="bottom-banner">Try out more on <a target="_blank" href="http://cubic-bezier.com">http://cubic-bezier.com</a> by <a href="http://lea.verou.me/">Lea Verou</a></div>
+				<div class="bottom-left-shadow"></div>
+				<div class="bottom-right-shadow"></div>
+			</section>
+		</section>
+		<section class="slide-content-wrapper slide8-content-2">
+			<section class="slide-text-wrapper slide8-text-wrapper">
+				<div class="syntax-wrapper">
+					<h4>Cubic-Bezier Syntax:</h4>
+					<code>cubic-bezier( <span class="point1">x<sub>1</sub></span>,<span class="point1">y<sub>1</sub></span>, <span class="point2">x<sub>2</sub></span>,<span class="point2">y<sub>2</sub></span> )</code>
+				</div>
+				<div class="easing-position-wrapper">
+					<h4><code>ease-in-out</code> position:</h4>
+					<code>cubic-bezier( <span class="point1">0.42</span>,<span class="point1">0.00</span>, <span class="point2">0.58</span>,<span class="point2">1.00</span> )</code>
+				</div>
+				<ul class="easing-describe">
+				<li>Describe: </li>
+				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>0.0%</strong> in <strong>0.42</strong> second</li>
+				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>100%</strong> in <strong>0.58</strong> second </li>
+			</ul>
+				<button class="run run7">Hover me <div class="hover-shadow"></div></button>
+				<div class="runway runway1">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-ease"></div>
+				</div>
+			</section>
+		<div class="content-shadow"></div>
+
+		</section>
+	</article>
+
+<!--slide 12-->
+	<article class="slide slide12 easing-slide" data-index='12'>
+		<section class="slide-content-wrapper slide8-content-1">
+			<!--create title circle-->
+			<div class="circle-wrapper">
+				<div class="circle-inside">12</div>
+				<div class="slide-title">Examine <code>linear</code> easing</div>
+				<div class="left-shadow"></div>
+				<div class="right-shadow"></div>
+			</div>
+
+			<section class="slide-text-wrapper slide8-text-wrapper">
+				<img src="assets/img/png/table2d-03.png" alt="" class="diagram-img">
+
+			</section>
+			<div class="text-content-shadow"></div>
+			<section class="bottom-strip">
+				<div class="bottom-banner">Try out more on <a target="_blank" href="http://cubic-bezier.com">http://cubic-bezier.com</a> by <a href="http://lea.verou.me/">Lea Verou</a></div>
+				<div class="bottom-left-shadow"></div>
+				<div class="bottom-right-shadow"></div>
+			</section>
+		</section>
+		<section class="slide-content-wrapper slide8-content-2">
+			<section class="slide-text-wrapper slide8-text-wrapper">
+				<div class="syntax-wrapper">
+					<h4>Cubic-Bezier Syntax:</h4>
+					<code>cubic-bezier( <span class="point1">x<sub>1</sub></span>,<span class="point1">y<sub>1</sub></span>, <span class="point2">x<sub>2</sub></span>,<span class="point2">y<sub>2</sub></span> )</code>
+				</div>
+				<div class="easing-position-wrapper">
+					<h4><code>linear</code> position:</h4>
+					<code>cubic-bezier( <span class="point1">0.25</span>,<span class="point1">0.25</span>, <span class="point2">0.75</span>,<span class="point2">0.75</span> )</code>
+				</div>
+				<ul class="easing-describe">
+				<li>Describe: </li>
+				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>25%</strong> in <strong>0.25</strong> second</li>
+				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>75%</strong> in <strong>0.75</strong> second </li>
+			</ul>
+				<button class="run run7">Hover me <div class="hover-shadow"></div></button>
+				<div class="runway runway1">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-ease"></div>
+				</div>
+			</section>
+		<div class="content-shadow"></div>
+
+		</section>
+	</article>
+
+<!--slide 13-->
+	<article class="slide slide13 easing-slide" data-index='13'>
+		<section class="slide-content-wrapper slide13-content-1">
+			<!--create title circle-->
+			<div class="circle-wrapper">
+				<div class="circle-inside">13</div>
+				<div class="slide-title">Customize <code>cubic-bezier</code> syntax for multi-purpose Usage</div>
+				<div class="left-shadow"></div>
+				<div class="right-shadow"></div>
+			</div>
+
+			<section class="slide-text-wrapper slide13-text-wrapper">
+				<img src="assets/img/png/table2d-03.png" alt="" class="diagram-img">
+
+			</section>
+			<div class="text-content-shadow"></div>
+			<section class="bottom-strip">
+				<div class="bottom-banner">Try out more on <a target="_blank" href="http://cubic-bezier.com">http://cubic-bezier.com</a> by <a href="http://lea.verou.me/">Lea Verou</a></div>
+				<div class="bottom-left-shadow"></div>
+				<div class="bottom-right-shadow"></div>
+			</section>
+		</section>
+		<section class="slide-content-wrapper slide13-content-2">
+			<section class="slide-text-wrapper slide13-text-wrapper">
+				<div class="syntax-wrapper">
+					<h4>Cubic-Bezier Syntax:</h4>
+					<code>cubic-bezier( <span class="point1">x<sub>1</sub></span>,<span class="point1">y<sub>1</sub></span>, <span class="point2">x<sub>2</sub></span>,<span class="point2">y<sub>2</sub></span> )</code>
+				</div>
+				<div class="easing-position-wrapper">
+					<h4>Custom<code>cubic-bezier</code>:</h4>
+					<code>cubic-bezier( <span class="point1">0.21</span>,<span class="point1">-0.31</span>, <span class="point2">0.71</span>,<span class="point2">1.4</span> )</code>
+				</div>
+				<ul class="easing-describe">
+				<li>Describe: </li>
+				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>-31%</strong> in <strong>0.21</strong> second</li>
+				<li> (element will return as exceeded the starting point)</li>
+				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>140%</strong> in <strong>0.71</strong> second </li>
+				<li> (element will return as exceeded the ending point)</li>
+			</ul>
+				<button class="run run7">Hover me <div class="hover-shadow"></div></button>
+				<div class="runway runway1">
+					<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+					<div class="ball ball-ease"></div>
+				</div>
+			</section>
+		<div class="content-shadow"></div>
+
+		</section>
+	</article>
+
+<!--slide 14-->
+	<article class="easing-slide slide slide14" data-index='14'>
+		<section class="slide-content-wrapper slide14-content-1">
+			<!--create title circle-->
+			<div class="circle-wrapper">
+				<div class="circle-inside">14</div>
+				<div class="slide-title"><code>step()</code> function</div>
+				<div class="left-shadow"></div>
+				<div class="right-shadow"></div>
+			</div>
+			<section class="slide-text-wrapper slide14-text-wrapper">
+				<div class="runway runway1">
+				<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+				<div class="ball ball-ease"></div>
+			<!-- </div> -->
+				<div class="step-describe">
+					<span><code>animation: step infinite 4s steps(4);</code></span>
+				</div>
+			</section>
+		</section>
+		<section class="slide-content-wrapper slide14-content-2">
+			<!--create title circle-->
+			<section class="slide-text-wrapper slide14-text-wrapper">
+				<ul>
+					<li class="li-item1">It is another <strong>predefined</strong> easing function</li>
+					<li class="li-item2"><strong>Not</strong> moving smoothly</li>
+					<li class="li-item3"><strong>Number of steps</strong> basically depend on time (second)</li>
+					<li class="li-item4">Indepent with <code>cubic-bezier()</code></li>
+					<li class="li-item5"</strong> <code>step()</code> syntax: <code>step(n, start/end)</code> </li>
+				</ul>
+			</section>
+		</section>
+	</article>
+
+<!--slide 15-->
+	<article class="easing-slide slide slide15" data-index='15'>
+		<section class="slide-content-wrapper slide15-content-1">
+			<!--create title circle-->
+			<div class="circle-wrapper">
+				<div class="circle-inside">15</div>
+				<div class="slide-title"><code>step</code> function Usage</div>
+				<div class="left-shadow"></div>
+				<div class="right-shadow"></div>
+			</div>
+			<section class="slide-text-wrapper slide15-text-wrapper">
+				<p>Currently, this is the new predefined functions, so it is not commonly used in most of nowadays.</p>
+				<p>On research, I found that we could use it to create faux <code>command</code> cursor like terminal <span class="text"></span></p>
+				<p>I will update more about its usages as possible.</p>
+			</section>
+		</section>
+		<section class="slide-content-wrapper slide15-content-2">
+			<section class="slide-text-wrapper slide15-text-wrapper">
+
+			</section>
+		</section>
+	</article>
+
+<!--slide 16-->
+	<article class="easing-slide slide slide16" data-index='16'>
+		<section class="slide-content-wrapper slide16-content-1">
+			<!--create title circle-->
+			<div class="circle-wrapper">
+				<div class="circle-inside">16</div>
+				<div class="slide-title"><code>step-start</code> & <code>step-end</code> Comparison</div>
+				<div class="left-shadow"></div>
+				<div class="right-shadow"></div>
+			</div>
+			<section class="slide-text-wrapper slide16-text-wrapper">
+				<img src="assets/img/jpg/12-steps-start-end.jpg" alt="" class="slide16-img diagram-img">
+				<span>Photo: <a href="http://smashingmagazine.com">Smashing Magazine</a></span>
+			</section>
+		</section>
+		<section class="slide-content-wrapper slide16-content-2">
+			<!--create title circle-->
+			<section class="slide-text-wrapper slide16-text-wrapper">
+				<div class="step-start">
+					<div class="runway runway1">
+				<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+				<div class="ball ball-start ball-ease"></div>
+				</div>
+				<div class="step-end">
+					<div class="runway runway1">
+				<img src="assets/img/svg/ease.svg" alt="" class="easing-runway">
+				<div class="ball ball-end ball-ease"></div>
+				</div>
+			</section>
+		</section>
+	</article>
+
+	<!--slide 17-->
+		<article class="easing-slide slide slide17" data-index='17'>
+			<section class="slide-content-wrapper slide17-content-1">
+				<!--create title circle-->
+				<div class="circle-wrapper">
+					<div class="circle-inside">17</div>
+					<div class="slide-title">Sources</div>
+					<div class="left-shadow"></div>
+					<div class="right-shadow"></div>
+				</div>
+				<section class="slide-text-wrapper slide17-text-wrapper">
+					<ul>
+						<li class="citation citation1">
+
+							<a href="http://www.kirupa.com/html5/easing_functions_css3.htm" class="link link1">Easing Functions (aka Timing Functions) in CSS3 <span class="citation-title citation-title1">- Kirupa.com</span></a>
+						</li>
+						<li class="citation citation2">
+
+							<a href="http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/" class="link link2">Understanding CSS Timing Functions <span class="citation-title citation-title2">- SmashingMagazine.com</span></a>
+						</li>
+						<li class="citation citation3">
+							<a href="http://www.css3files.com/transition/" class="link link3">Transition <span class="citation-title citation-title3">- CSS3Files.com</span></a>
+						</li>
+						<li class="citation citation4">
+							<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function" class="link link4">&lt; timing-function &gt; <span class="citation-title citation-title4">- Mozilla.org</span></a>
+						</li>
+						<li class="citation citation5">
+							<a href="http://www.w3.org/TR/css3-transitions/#transition-timing-function-property" class="link link5">CSS Transitions <span class="citation-title citation-title5">- W3.org</span></a>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="slide-content-wrapper slide17-content-2">
+				<!--create title circle-->
+				<section class="slide-text-wrapper slide17-text-wrapper">
+
+				</section>
+			</section>
+		</article>
+	</main>
+		<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>

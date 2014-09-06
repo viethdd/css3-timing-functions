@@ -1,0 +1,200 @@
+.slide5-content-1{
+	background : rgba($dark-green,1);
+	.slide-text-wrapper{
+		display          : flex;
+		flex-flow        : wrap row;
+		justify-content  : flex-start;
+
+		.easing-column1{
+			margin-top: 30px;
+			.examples-line{
+				margin-bottom : 10px;
+				height        : 50px;
+				.ease-keyword{
+				}
+			}
+		}
+		.easing-column2{
+			margin-left : 0px;
+			display     : flex;
+			flex-flow   : wrap row;
+			position    : relative;
+			overflow    : hidden;
+			height      : 450px;
+
+
+			.easing-phases{
+				font-size    : 1.1em;
+				margin-right : 0px;
+				padding      : 0 0;
+				text-align   : center;
+				width        : 120px;
+				.easing-phase-wrapper{
+					float        : left;
+					text-align   : center;
+					margin-left  : 0;
+					margin-top   : 10px;
+					padding      : 0;
+					padding-left : 30px;
+					text-align   : left;
+					.easing-phase-item{
+						height        : 50px;
+						margin-bottom : 8px;
+						line-height   : 16px;
+						font-size     : .8em;
+						font-weight   : 500;
+					}
+					.easing-phase-item:nth-child(n+3):nth-child(-n+4){
+						margin-top: 10px;
+					}
+					.easing-phase-item:nth-child(5){
+						margin-top: 12px;
+					}
+					.easing-phase-item:nth-child(6){
+						margin-top: 8px;
+					}
+					.easing-phase-item:nth-child(7){
+						margin-top: 10px;
+					}
+
+				}
+				.easing-title{
+					margin     : 0 auto;
+					padding    : 0 30px;
+					text-align : left;
+					opacity    : .5;
+					font-size  : 1.0em;
+				}
+			}
+			.easing-begin{
+				border-right : 1px solid rgba($med-gray,.9);
+				width        : 130px;
+				.easing-title{
+				}
+				.easing-begin-wrapper{
+				}
+			}
+			.easing-end{
+			}
+
+		}
+	}
+}
+
+.slide5-content-2{
+	position   : relative;
+	z-index    : 1;
+	background: transparent;
+	.examples-run-wrapper{
+		padding-left : 0;
+		text-align   : left;
+		margin-left  : 15px;
+		position     : relative;
+		top          : 35px;
+		.examples-run-line{
+			height     : 50px;
+			margin-top : 10px;
+			display    : flex;
+			flex-flow  : row wrap;
+
+			.run{ //hover me
+				opacity     : .5;
+				color       : #fff;
+				height      : 25px;
+				cursor      : pointer;
+				box-sizing  : border-box;
+				padding-top : 5px;
+				margin-left : -20px;
+				background  : $med-orange;
+				border      : none;
+				&:hover{
+					opacity: 1;
+				}
+				&:active{
+					opacity: 1;
+				}
+				&:hover ~ .runway>.ball{
+					left       : 264.5px;
+					background: $med-red;
+				}
+
+			}
+			.runway{
+				width       : 340px;
+				height      : 50px;
+				position    : relative;
+				margin-left : 10px;
+				.easing-runway{
+					opacity   : .3;
+					width: 90%;
+					margin-top: -5px;
+				}
+				.ball{
+					width         : 20px;
+					height        : 20px;
+					background    : $lite-green;
+					border-radius : 50%;
+					position      : relative;
+					left          : 0;
+					margin-top    : -46.52px;
+					margin-left   : 11.5px;
+				}
+				@each $key1,$key2 in $easing{
+					.ball-#{$key1}{
+						@include transition(left,1s,$key2);
+						-webkit-transition-timing-function: $key2;
+						-moz-transition-timing-function: $key2;
+					}
+				}
+			}
+		}
+	}
+}
+
+.slide5{
+	.bottom-strip{
+		margin-top: 76px;
+		width: 887px;
+		height: 50px;
+		background: #000;
+		margin-left: 45px;
+		z-index: 100;
+		box-shadow  : 2px -1px 5px rgba($blk,.5);
+		.bottom-banner{
+			color: #fff;
+			text-align: right;
+			padding-right: 20px;
+			padding-top: 17px;
+			a{
+				text-decoration: none;
+				color: $med-blue;
+				font-style: italic;
+				border-bottom: 1px solid rgba($med-blue,.5);
+			}
+		}
+		.bottom-left-shadow{
+			z-index      : 10;
+			width        : 0;
+			height       : 0;
+			border-left  : 18px solid transparent;
+			border-right : 18px solid transparent;
+			border-top   : 18px solid rgba($blk,.5);
+			font-size    : 0;
+			line-height  : 0;
+			transform    : rotate(-45deg);
+			position     : relative;
+			top          : -50px;
+			left         : 1px;
+		}
+		.bottom-right-shadow{
+			@extend .bottom-left-shadow;
+			transform    :rotate(45deg);
+			float        : right;
+			top          : -71px;
+			left         : -2px;
+			border-left  : 20px solid transparent;
+			border-right : 20px solid transparent;
+			border-top   : 20px solid rgba($blk,.5);
+		}
+	}
+}

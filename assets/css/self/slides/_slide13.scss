@@ -1,0 +1,25 @@
+.slide13-content-1{
+	background : $dark-green;
+	box-shadow : 15px 15px rgba($lite-gray,.3) ;
+	.slide-text-wrapper{
+		background : #000;
+		width      : 400px;
+		position   : relative;
+	}
+}
+.slide13-content-2{
+	background : $dark-green;
+	position   : relative;
+	.slide-text-wrapper{
+		background : $med-gray;
+		width      : 400px;
+		height: 500px;
+		position   : relative;
+		ul{
+			margin-bottom: 50px;
+		}
+		li:nth-child(2n+1):not(:first-child){
+			font-size: .8rem;
+		}
+	}
+}

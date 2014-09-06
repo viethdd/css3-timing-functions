@@ -1,0 +1,903 @@
+{
+  "id" : "00000000-0000-0000-0000-000000000000",
+  "javascriptIndentation" : 4,
+  "files" : {
+    "assets\/css\/self\/bourbon\/addons\/_html5-input-types.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_html5-input-types.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_reset.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_reset.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/js\/vendor\/jquery-2.0.3.js" : {
+      "output" : "assets\/js\/vendor\/jquery-2.0.3.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide5.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide5.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_row.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_row.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/settings\/_prefixer.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/settings\/_prefixer.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_background.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_background.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_font-face.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_font-face.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_prefixer.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_prefixer.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_shift.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_shift.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide7.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide7.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_transition.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_transition.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide9.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide9.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide12.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide12.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_private.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_private.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/functions\/_new-breakpoint.scss" : {
+      "output" : "assets\/css\/self\/neat\/functions\/_new-breakpoint.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_clearfix.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_clearfix.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_font-feature-settings.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_font-feature-settings.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide10.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide10.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_omega.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_omega.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_shape-size-stripper.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_shape-size-stripper.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_linear-gradient-parser.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_linear-gradient-parser.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/tool\/_color.scss" : {
+      "output" : "assets\/css\/self\/tool\/_color.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/js\/vendor\/prefixfree.min.js" : {
+      "output" : "assets\/js\/vendor\/prefixfree.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_radial-arg-parser.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_radial-arg-parser.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_assign.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_assign.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_placeholder.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_placeholder.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_appearance.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_appearance.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_is-num.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_is-num.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/vendor\/960_16_col.css" : {
+      "output" : "assets\/css\/vendor\/960_16_col.out.css"
+    },
+    "assets\/css\/self\/bourbon\/css3\/_animation.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_animation.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/js\/self\/master.js" : {
+      "output" : "assets\/js\/self\/master.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_radial-gradient.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_radial-gradient.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/tool\/_effect.scss" : {
+      "output" : "assets\/css\/self\/tool\/_effect.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/functions\/_private.scss" : {
+      "output" : "assets\/css\/self\/neat\/functions\/_private.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_linear-side-corner-parser.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_linear-side-corner-parser.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_linear-positions-parser.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_linear-positions-parser.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/vendor\/960_12_col.css" : {
+      "output" : "assets\/css\/vendor\/960_12_col.out.css"
+    },
+    "assets\/css\/self\/bourbon\/_bourbon.scss" : {
+      "imports" : [
+        "assets\/css\/self\/bourbon\/settings\/_prefixer.scss",
+        "assets\/css\/self\/bourbon\/settings\/_px-to-em.scss",
+        "assets\/css\/self\/bourbon\/settings\/_asset-pipeline.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_convert-units.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_gradient-positions-parser.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_is-num.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_linear-angle-parser.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_linear-gradient-parser.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_linear-positions-parser.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_linear-side-corner-parser.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_radial-arg-parser.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_radial-positions-parser.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_radial-gradient-parser.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_render-gradients.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_shape-size-stripper.scss",
+        "assets\/css\/self\/bourbon\/helpers\/_str-to-num.scss",
+        "assets\/css\/self\/bourbon\/functions\/_assign.scss",
+        "assets\/css\/self\/bourbon\/functions\/_color-lightness.scss",
+        "assets\/css\/self\/bourbon\/functions\/_flex-grid.scss",
+        "assets\/css\/self\/bourbon\/functions\/_golden-ratio.scss",
+        "assets\/css\/self\/bourbon\/functions\/_grid-width.scss",
+        "assets\/css\/self\/bourbon\/functions\/_modular-scale.scss",
+        "assets\/css\/self\/bourbon\/functions\/_px-to-em.scss",
+        "assets\/css\/self\/bourbon\/functions\/_px-to-rem.scss",
+        "assets\/css\/self\/bourbon\/functions\/_strip-units.scss",
+        "assets\/css\/self\/bourbon\/functions\/_tint-shade.scss",
+        "assets\/css\/self\/bourbon\/functions\/_transition-property-name.scss",
+        "assets\/css\/self\/bourbon\/functions\/_unpack.scss",
+        "assets\/css\/self\/bourbon\/css3\/_animation.scss",
+        "assets\/css\/self\/bourbon\/css3\/_appearance.scss",
+        "assets\/css\/self\/bourbon\/css3\/_backface-visibility.scss",
+        "assets\/css\/self\/bourbon\/css3\/_background.scss",
+        "assets\/css\/self\/bourbon\/css3\/_background-image.scss",
+        "assets\/css\/self\/bourbon\/css3\/_border-image.scss",
+        "assets\/css\/self\/bourbon\/css3\/_border-radius.scss",
+        "assets\/css\/self\/bourbon\/css3\/_box-sizing.scss",
+        "assets\/css\/self\/bourbon\/css3\/_calc.scss",
+        "assets\/css\/self\/bourbon\/css3\/_columns.scss",
+        "assets\/css\/self\/bourbon\/css3\/_filter.scss",
+        "assets\/css\/self\/bourbon\/css3\/_flex-box.scss",
+        "assets\/css\/self\/bourbon\/css3\/_font-face.scss",
+        "assets\/css\/self\/bourbon\/css3\/_font-feature-settings.scss",
+        "assets\/css\/self\/bourbon\/css3\/_hyphens.scss",
+        "assets\/css\/self\/bourbon\/css3\/_hidpi-media-query.scss",
+        "assets\/css\/self\/bourbon\/css3\/_image-rendering.scss",
+        "assets\/css\/self\/bourbon\/css3\/_keyframes.scss",
+        "assets\/css\/self\/bourbon\/css3\/_linear-gradient.scss",
+        "assets\/css\/self\/bourbon\/css3\/_perspective.scss",
+        "assets\/css\/self\/bourbon\/css3\/_radial-gradient.scss",
+        "assets\/css\/self\/bourbon\/css3\/_transform.scss",
+        "assets\/css\/self\/bourbon\/css3\/_transition.scss",
+        "assets\/css\/self\/bourbon\/css3\/_user-select.scss",
+        "assets\/css\/self\/bourbon\/css3\/_placeholder.scss",
+        "assets\/css\/self\/bourbon\/addons\/_button.scss",
+        "assets\/css\/self\/bourbon\/addons\/_clearfix.scss",
+        "assets\/css\/self\/bourbon\/addons\/_directional-values.scss",
+        "assets\/css\/self\/bourbon\/addons\/_ellipsis.scss",
+        "assets\/css\/self\/bourbon\/addons\/_font-family.scss",
+        "assets\/css\/self\/bourbon\/addons\/_hide-text.scss",
+        "assets\/css\/self\/bourbon\/addons\/_html5-input-types.scss",
+        "assets\/css\/self\/bourbon\/addons\/_position.scss",
+        "assets\/css\/self\/bourbon\/addons\/_prefixer.scss",
+        "assets\/css\/self\/bourbon\/addons\/_retina-image.scss",
+        "assets\/css\/self\/bourbon\/addons\/_size.scss",
+        "assets\/css\/self\/bourbon\/addons\/_timing-functions.scss",
+        "assets\/css\/self\/bourbon\/addons\/_triangle.scss",
+        "assets\/css\/self\/bourbon\/addons\/_word-wrap.scss",
+        "assets\/css\/self\/bourbon\/_bourbon-deprecated-upcoming.scss"
+      ],
+      "output" : "assets\/css\/self\/bourbon\/_bourbon.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_visual-grid.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_visual-grid.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/settings\/_visual-grid.scss" : {
+      "output" : "assets\/css\/self\/neat\/settings\/_visual-grid.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_fill-parent.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_fill-parent.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_strip-units.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_strip-units.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_flex-box.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_flex-box.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/settings\/_grid.scss" : {
+      "output" : "assets\/css\/self\/neat\/settings\/_grid.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_backface-visibility.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_backface-visibility.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_size.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_size.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_render-gradients.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_render-gradients.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_background-image.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_background-image.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_image-rendering.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_image-rendering.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide2.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide2.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/settings\/_asset-pipeline.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/settings\/_asset-pipeline.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/_neat.scss" : {
+      "imports" : [
+        "assets\/css\/self\/neat\/_neat-helpers.scss",
+        "assets\/css\/self\/neat\/grid\/_private.scss",
+        "assets\/css\/self\/neat\/grid\/_reset.scss",
+        "assets\/css\/self\/neat\/grid\/_grid.scss",
+        "assets\/css\/self\/neat\/grid\/_omega.scss",
+        "assets\/css\/self\/neat\/grid\/_outer-container.scss",
+        "assets\/css\/self\/neat\/grid\/_span-columns.scss",
+        "assets\/css\/self\/neat\/grid\/_row.scss",
+        "assets\/css\/self\/neat\/grid\/_shift.scss",
+        "assets\/css\/self\/neat\/grid\/_pad.scss",
+        "assets\/css\/self\/neat\/grid\/_fill-parent.scss",
+        "assets\/css\/self\/neat\/grid\/_media.scss",
+        "assets\/css\/self\/neat\/grid\/_to-deprecate.scss",
+        "assets\/css\/self\/neat\/grid\/_visual-grid.scss"
+      ],
+      "output" : "assets\/css\/self\/neat\/_neat.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_ellipsis.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_ellipsis.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide4.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide4.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_linear-gradient.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_linear-gradient.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_font-family.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_font-family.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_hide-text.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_hide-text.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_color-lightness.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_color-lightness.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/_bourbon-deprecated-upcoming.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/_bourbon-deprecated-upcoming.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_grid-width.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_grid-width.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide13.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide13.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_top-bar.scss" : {
+      "output" : "assets\/css\/self\/slides\/_top-bar.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_hidpi-media-query.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_hidpi-media-query.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide8.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide8.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide6.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide6.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_px-to-rem.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_px-to-rem.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_grid.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_grid.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/vendor\/normalize.css" : {
+      "output" : "assets\/css\/vendor\/normalize.out.css"
+    },
+    "assets\/css\/self\/neat\/grid\/_pad.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_pad.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_outer-container.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_outer-container.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_button.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_button.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_triangle.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_triangle.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_retina-image.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_retina-image.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_span-columns.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_span-columns.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_convert-units.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_convert-units.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_media.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_media.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_radial-gradient-parser.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_radial-gradient-parser.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide11.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide11.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_unpack.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_unpack.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_linear-angle-parser.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_linear-angle-parser.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_flex-grid.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_flex-grid.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/master.scss" : {
+      "imports" : [
+        "assets\/css\/self\/tool\/_color.scss",
+        "assets\/css\/self\/tool\/_effect.scss",
+        "assets\/css\/self\/tool\/_functions.scss",
+        "assets\/css\/self\/tool\/_map.scss",
+        "assets\/css\/self\/bourbon\/_bourbon.scss",
+        "assets\/css\/self\/neat\/_neat.scss",
+        "assets\/css\/self\/slides\/_slide6.scss",
+        "assets\/css\/self\/slides\/_slide7.scss",
+        "assets\/css\/self\/slides\/_slide8.scss",
+        "assets\/css\/self\/slides\/_slide9.scss",
+        "assets\/css\/self\/slides\/_slide10.scss",
+        "assets\/css\/self\/slides\/_slide11.scss",
+        "assets\/css\/self\/slides\/_slide12.scss",
+        "assets\/css\/self\/slides\/_slide13.scss",
+        "assets\/css\/self\/slides\/_top-bar.scss",
+        "assets\/css\/self\/slides\/_slide1.scss",
+        "assets\/css\/self\/slides\/_slide2.scss",
+        "assets\/css\/self\/slides\/_slide3.scss",
+        "assets\/css\/self\/slides\/_slide4.scss",
+        "assets\/css\/self\/slides\/_slide5.scss"
+      ],
+      "output" : "assets\/css\/self\/master.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/js\/vendor\/jquery-ui-1.9.2.js" : {
+      "output" : "assets\/js\/vendor\/jquery-ui-1.9.2.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/master.css" : {
+      "output" : "assets\/css\/self\/master.out.css"
+    },
+    "assets\/css\/self\/bourbon\/addons\/_timing-functions.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_timing-functions.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/settings\/_px-to-em.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/settings\/_px-to-em.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_calc.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_calc.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/tool\/_functions.scss" : {
+      "output" : "assets\/css\/self\/tool\/_functions.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_columns.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_columns.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_filter.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_filter.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_directional-values.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_directional-values.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_word-wrap.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_word-wrap.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/_neat-helpers.scss" : {
+      "imports" : [
+        "assets\/css\/self\/neat\/functions\/_private.scss",
+        "assets\/css\/self\/neat\/functions\/_new-breakpoint.scss",
+        "assets\/css\/self\/neat\/settings\/_grid.scss",
+        "assets\/css\/self\/neat\/settings\/_visual-grid.scss"
+      ],
+      "output" : "assets\/css\/self\/neat\/_neat-helpers.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_perspective.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_perspective.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/addons\/_position.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/addons\/_position.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/neat\/grid\/_to-deprecate.scss" : {
+      "output" : "assets\/css\/self\/neat\/grid\/_to-deprecate.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/tool\/_map.scss" : {
+      "output" : "assets\/css\/self\/tool\/_map.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_golden-ratio.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_golden-ratio.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_box-sizing.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_box-sizing.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_border-radius.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_border-radius.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_transition-property-name.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_transition-property-name.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_transform.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_transform.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_px-to-em.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_px-to-em.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_user-select.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_user-select.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_str-to-num.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_str-to-num.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_hyphens.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_hyphens.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_radial-positions-parser.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_radial-positions-parser.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/helpers\/_gradient-positions-parser.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/helpers\/_gradient-positions-parser.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide1.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide1.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_border-image.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_border-image.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/slides\/_slide3.scss" : {
+      "output" : "assets\/css\/self\/slides\/_slide3.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_modular-scale.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_modular-scale.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/css3\/_keyframes.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/css3\/_keyframes.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "assets\/css\/self\/bourbon\/functions\/_tint-shade.scss" : {
+      "output" : "assets\/css\/self\/bourbon\/functions\/_tint-shade.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  },
+  "flows" : {
+    "stylus" : {
+      "stylus" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "sass" : {
+      "sass" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "coffee" : {
+      "coffee" : "00000000-0000-0000-0000-000000000000",
+      "jshint" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.js",
+      "uglify" : "00000000-0000-0000-0000-000000000000"
+    },
+    "jinja" : {
+      "jinja" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*"
+    },
+    "less" : {
+      "less" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "css" : {
+      "output" : "*.out.css"
+    },
+    "js" : {
+      "jshint" : "00000000-0000-0000-0000-000000000000",
+      "uglify" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.out.js"
+    }
+  },
+  "profiles" : {
+    "stylus" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "mediaquery" : false,
+        "name" : "Default Stylus Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "coffee" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default CoffeeScript Profile",
+        "bare" : false
+      }
+    },
+    "sass" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Sass Profile",
+        "style" : "compressed",
+        "debug" : 0
+      }
+    },
+    "jshint" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default JSHint Profile",
+        "options" : [
+          "undef",
+          "unused",
+          "bitwise",
+          "curly",
+          "eqeqeq",
+          "latedef",
+          "newcap",
+          "noarg",
+          "nonew",
+          "trailing",
+          "browser",
+          "jquery"
+        ],
+        "globals" : ""
+      }
+    },
+    "less" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "imports" : false,
+        "mediaquery" : false,
+        "name" : "Default Less Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "jinja" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Jinja Profile",
+        "autoescape" : false
+      }
+    },
+    "uglify" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default UglifyJS Profile",
+        "options" : [
+          "--mangle",
+          "--compress",
+          "beautify"
+        ]
+      }
+    }
+  },
+  "version" : 10100
+}
