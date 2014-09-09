@@ -96,23 +96,24 @@
 			cursor 1s step-end infinite;
 	}
 	.ball{
-		width: 40px;
-		height: 40px;
+		width: 70px;
+		height: 70px;
 		background: rgba(#9ece56,1);
 		position: relative;
-		top: 150px;
+		top: 52px;
+		left: -60px;
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
 		border-radius: 50%;
-		animation: firstBall 5s infinite cubic-bezier(.15,-0.26,.59,1.46);
+		animation: firstBall 5s infinite ease-in;
 	}
 
-@keyframes firstBall {
-	0% { top: 150px; }
-	25% { top: 650px; border-radius:  0%; }
-	// 50% {top: 400px;}
-	75% {top: 200px;}
-	100%{top: 150px;}
-}
+	@keyframes firstBall {
+		0% {left: 00px;}
+		25% {left: 900px; top:52px;}
+		50% {left: 900px;top:700px;}
+		75% {left: 00; top: 700px;}
+		100%{left: 00; top: 52px;}
+	}
 }
 
