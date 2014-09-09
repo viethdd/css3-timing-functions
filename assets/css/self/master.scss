@@ -123,7 +123,7 @@ main{
 				z-index       : 2;
 				box-shadow    : 0px 2px 4px rgba($blk,.5);
 				.circle-inside{
-					background    : $wht;
+					background    : #9ece56;
 					width         : 30px;
 					height        : 30px;
 					border-radius : 50%;
@@ -607,13 +607,19 @@ article[class*='easing-']{
 				li:first-child{
 					border-bottom: 1px solid rgba($wht,.4);
 					margin-bottom: 5px;
+					font-style: italic;
 				}
 				width				: 350px;
 				height			: 100px;
-				// background	: $med-red;
 				margin-top	: -40px;
 				list-style	: none;
 				padding-left: 10px;
+					.describe-point1{
+						color: $med-green;
+					}
+					.describe-point2{
+						color: $med-red;
+					}
 			}
 			.run{ //hover me
 				/* opacity     : .5; */
@@ -705,3 +711,32 @@ article[class*='easing-']{
 @import 'slides/slide16';
 @import 'slides/slide17';
 @import 'slides/top-bar';
+
+
+.nav-arrows-wrapper{
+	width: 50px;
+	height: 100px;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	text-align: right;
+	padding-right: 7px;
+	z-index: 1000;
+	img:first-child{
+		margin-bottom: 30px;
+	}
+	img{
+		cursor: pointer;
+		width: 24px;
+		opacity: .5;
+		&:hover{
+			opacity: 1;
+		}
+	}
+
+	.arrow--init{
+		&:hover{
+			opacity: .5;
+		}
+	}
+}

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Research Based Design</title>
+	<link rel="icon" type="image/png" href="assets/img/png/rbdw-icon.png"> 
 	<link rel="stylesheet" href="assets/css/vendor/normalize.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="assets/css/vendor/960_16_col.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="assets/css/self/master.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
@@ -140,11 +141,14 @@
 	</span>
 
 	<div class="credit-wrapper">
-		<span>Research, Design & Develop by <a href="github.com"><img src="assets/img/png/github-48-black.png" alt=""><strong>Viet Ho</strong></a></span>
+		<span>Research, Design & Develop by <a target="_blank" href="https://github.com/viethdd/css3-timing-functions"><img src="assets/img/png/github-48-black.png" alt=""><strong>Viet Ho</strong></a></span>
 		
 	</div>
 </article>
-
+<div class="nav-arrows-wrapper" data-step="0">
+	<img data-step="1" src="assets/img/png/up.png" alt="" class="arrow--up arrow--init">
+	<img src="assets/img/png/down.png" alt="" class="arrow--down" >
+</div>
 <main>
 <!--slide1-->
 <article class="slide slide1" data-index='1'>
@@ -380,18 +384,53 @@
 			<div class="left-shadow"></div>
 			<div class="right-shadow"></div>
 		</div>
-		<!-- <h3 class="title"></h3> -->
 		<!-- text wrapper 5 -->
 
 		<section class="slide-text-wrapper slide5-text-wrapper">
 			<section class="easing-column easing-column1">
-				<div class="examples-line examples-line1"><code class="ease-keyword">ease</code></div>
-				<div class="examples-line examples-line2"><code class="ease-keyword">ease-in</code></div>
-				<div class="examples-line examples-line3"><code class="ease-keyword">ease-out</code></div>
-				<div class="examples-line examples-line4"><code class="ease-keyword">ease-in-out</code></div>
-				<div class="examples-line examples-line5"><code class="ease-keyword">linear</code></div>
-				<div class="examples-line examples-line6"><code class="ease-keyword">step-start</code></div>
-				<div class="examples-line examples-line7"><code class="ease-keyword">step-end</code></div>
+				<div class="examples-line examples-line1">
+					<code class="ease-keyword s5-ease" data-ease="7">ease</code>
+					<figure class="info-box" >
+						<img class="info-img" src="assets/img/png/info.png" alt="" data-easeinfo="7">
+						<figcaption>Learn more at <strong>8th</strong> slide </figcaption>
+					</figure>
+				</div>
+				<div class="examples-line examples-line2"><code class="ease-keyword s5-easein" data-ease="8">ease-in</code>
+					<figure class="info-box" >
+						<img class="info-img" src="assets/img/png/info.png" alt="" data-easeinfo="8">
+						<figcaption>Learn more at <strong>9th</strong> slide </figcaption>
+					</figure>
+				</div>
+				<div class="examples-line examples-line3"><code class="ease-keyword s5-easeout" data-ease="9">ease-out</code>
+					<figure class="info-box" >
+						<img class="info-img" src="assets/img/png/info.png" alt="" data-easeinfo="9">
+						<figcaption>Learn more at <strong>10th</strong> slide </figcaption>
+					</figure>
+				</div>
+				<div class="examples-line examples-line4"><code class="ease-keyword s5-easeinout" data-ease="10">ease-in-out</code>
+					<figure class="info-box" >
+						<img class="info-img" src="assets/img/png/info.png" alt="" data-easeinfo="10">
+						<figcaption>Learn more at <strong>11th</strong> slide </figcaption>
+					</figure>
+				</div>
+				<div class="examples-line examples-line5"><code class="ease-keyword s5-linear" data-ease="11">linear</code>
+					<figure class="info-box" >
+						<img class="info-img" src="assets/img/png/info.png" alt="" data-easeinfo="11">
+						<figcaption>Learn more at <strong>12th</strong> slide </figcaption>
+					</figure>
+				</div>
+				<div class="examples-line examples-line6"><code class="ease-keyword s5-stepstart" data-ease="13">step-start</code>
+					<figure class="info-box" >
+						<img class="info-img" src="assets/img/png/info.png" alt="" data-easeinfo="13">
+						<figcaption>Learn more at <strong>14th</strong> slide </figcaption>
+					</figure>
+				</div>
+				<div class="examples-line examples-line7"><code class="ease-keyword s5-stepend" data-ease="15">step-end</code>
+					<figure class="info-box" >
+						<img class="info-img" src="assets/img/png/info.png" alt="" data-easeinfo="13">
+						<figcaption>Learn more at <strong>14th</strong> slide </figcaption>
+					</figure>
+				</div>
 			</section>
 			<section class="easing-column easing-column2">
 				<div class="easing-phases easing-begin">
@@ -402,8 +441,8 @@
 						<li class="easing-phase-item easing-begin-easein">accelerate smoothly</li>
 						<li class="easing-phase-item easing-begin-easeio">smoothly</li>
 						<li class="easing-phase-item easing-begin-linear">slightly</li>
-						<li class="easing-phase-item easing-begin-stepstart">equally steps</li>
-						<li class="easing-phase-item easing-begin-stepend">equally steps<br>lately start</li>
+						<li class="easing-phase-item easing-begin-stepstart">equal steps</li>
+						<li class="easing-phase-item easing-begin-stepend">equal steps<br><i>late start</i></li>
 					</ul>
 				</div>
 				<div class="easing-phases easing-end">
@@ -414,8 +453,8 @@
 						<li class ="easing-phase-item easing-end-easein">slowdown smoothly</li>
 						<li class ="easing-phase-item easing-end-easeio">smoothly</li>
 						<li class ="easing-phase-item easing-end-linear">slightly</li>
-						<li class ="easing-phase-item easing-end-stepstart">equally steps</li>
-						<li class ="easing-phase-item easing-end-stepend">equally steps</li>
+						<li class ="easing-phase-item easing-end-stepstart">equal steps</li>
+						<li class ="easing-phase-item easing-end-stepend">equal steps</li>
 					</ul>
 				</div>
 			</section>
@@ -592,8 +631,8 @@
 			</div>
 			<ul class="easing-describe">
 				<li>Describe: </li>
-				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>25%</strong> in <strong>0.1</strong> second</li>
-				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>25%</strong> in <strong>1.0</strong> second </li>
+				<li class="easing-describe-1"><strong class="describe-point1">Point 1:</strong>  element moved <strong>25%</strong> in <strong>0.1</strong> second</li>
+				<li class="easing-describe-2"><strong class="describe-point2">Point 2:</strong>  element moved <strong>25%</strong> in <strong>1.0</strong> second </li>
 			</ul>
 			<button class="run run7">Hover me <div class="hover-shadow"></div></button>
 			<div class="runway runway1">
@@ -639,8 +678,8 @@
 			</div>
 			<ul class="easing-describe">
 				<li>Describe: </li>
-				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>0.0%</strong> in <strong>0.42</strong> second</li>
-				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>100%</strong> in <strong>1.0</strong> second </li>
+				<li class="easing-describe-1"><strong class="describe-point1">Point 1:</strong>  element moved <strong>0.0%</strong> in <strong>0.42</strong> second</li>
+				<li class="easing-describe-2"><strong class="describe-point2">Point 2:</strong>  element moved <strong>100%</strong> in <strong>1.0</strong> second </li>
 			</ul>
 			<button class="run run7">Hover me <div class="hover-shadow"></div></button>
 			<div class="runway runway1">
@@ -687,8 +726,8 @@
 				</div>
 				<ul class="easing-describe">
 				<li>Describe: </li>
-				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>0.0%</strong> in <strong>0.0</strong> second</li>
-				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>100%</strong> in <strong>0.58</strong> second </li>
+				<li class="easing-describe-1"><strong class="describe-point1">Point 1:</strong>  element moved <strong>0.0%</strong> in <strong>0.0</strong> second</li>
+				<li class="easing-describe-2"><strong class="describe-point2">Point 2:</strong>  element moved <strong>100%</strong> in <strong>0.58</strong> second </li>
 			</ul>
 				<button class="run run7">Hover me <div class="hover-shadow"></div></button>
 				<div class="runway runway1">
@@ -735,8 +774,8 @@
 				</div>
 				<ul class="easing-describe">
 				<li>Describe: </li>
-				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>0.0%</strong> in <strong>0.42</strong> second</li>
-				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>100%</strong> in <strong>0.58</strong> second </li>
+				<li class="easing-describe-1"><strong class="describe-point1">Point 1:</strong>  element moved <strong>0.0%</strong> in <strong>0.42</strong> second</li>
+				<li class="easing-describe-2"><strong class="describe-point2">Point 2:</strong>  element moved <strong>100%</strong> in <strong>0.58</strong> second </li>
 			</ul>
 				<button class="run run7">Hover me <div class="hover-shadow"></div></button>
 				<div class="runway runway1">
@@ -783,8 +822,8 @@
 				</div>
 				<ul class="easing-describe">
 				<li>Describe: </li>
-				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>25%</strong> in <strong>0.25</strong> second</li>
-				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>75%</strong> in <strong>0.75</strong> second </li>
+				<li class="easing-describe-1"><strong class="describe-point1">Point 1:</strong>  element moved <strong>25%</strong> in <strong>0.25</strong> second</li>
+				<li class="easing-describe-2"><strong class="describe-point2">Point 2:</strong>  element moved <strong>75%</strong> in <strong>0.75</strong> second </li>
 			</ul>
 				<button class="run run7">Hover me <div class="hover-shadow"></div></button>
 				<div class="runway runway1">
@@ -831,9 +870,9 @@
 				</div>
 				<ul class="easing-describe">
 				<li>Describe: </li>
-				<li class="easing-describe-1"><strong>Point 1:</strong>  element moved <strong>-31%</strong> in <strong>0.21</strong> second</li>
+				<li class="easing-describe-1"><strong class="describe-point1">Point 1:</strong>  element moved <strong>-31%</strong> in <strong>0.21</strong> second</li>
 				<li> (element will return as exceeded the starting point)</li>
-				<li class="easing-describe-2"><strong>Point 2:</strong>  element moved <strong>140%</strong> in <strong>0.71</strong> second </li>
+				<li class="easing-describe-2"><strong class="describe-point2">Point 2:</strong>  element moved <strong>140%</strong> in <strong>0.71</strong> second </li>
 				<li> (element will return as exceeded the ending point)</li>
 			</ul>
 				<button class="run run7">Hover me <div class="hover-shadow"></div></button>
@@ -950,20 +989,20 @@
 					<ul>
 						<li class="citation citation1">
 
-							<a href="http://www.kirupa.com/html5/easing_functions_css3.htm" class="link link1">Easing Functions (aka Timing Functions) in CSS3 <span class="citation-title citation-title1">- Kirupa.com</span></a>
+							<a target="_blank" href="http://www.kirupa.com/html5/easing_functions_css3.htm" class="link link1">Easing Functions (aka Timing Functions) in CSS3 <span class="citation-title citation-title1">- Kirupa.com</span></a>
 						</li>
 						<li class="citation citation2">
 
-							<a href="http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/" class="link link2">Understanding CSS Timing Functions <span class="citation-title citation-title2">- SmashingMagazine.com</span></a>
+							<a target="_blank" href="http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/" class="link link2">Understanding CSS Timing Functions <span class="citation-title citation-title2">- SmashingMagazine.com</span></a>
 						</li>
 						<li class="citation citation3">
-							<a href="http://www.css3files.com/transition/" class="link link3">Transition <span class="citation-title citation-title3">- CSS3Files.com</span></a>
+							<a target="_blank" href="http://www.css3files.com/transition/" class="link link3">Transition <span class="citation-title citation-title3">- CSS3Files.com</span></a>
 						</li>
 						<li class="citation citation4">
-							<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function" class="link link4">&lt; timing-function &gt; <span class="citation-title citation-title4">- Mozilla.org</span></a>
+							<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function" class="link link4">&lt; timing-function &gt; <span class="citation-title citation-title4">- Mozilla.org</span></a>
 						</li>
 						<li class="citation citation5">
-							<a href="http://www.w3.org/TR/css3-transitions/#transition-timing-function-property" class="link link5">CSS Transitions <span class="citation-title citation-title5">- W3.org</span></a>
+							<a target="_blank" href="http://www.w3.org/TR/css3-transitions/#transition-timing-function-property" class="link link5">CSS Transitions <span class="citation-title citation-title5">- W3.org</span></a>
 						</li>
 					</ul>
 				</section>

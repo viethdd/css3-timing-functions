@@ -85,7 +85,6 @@
 
 .slide1{
 		.text {
-	  // width: 11ch;
 			width				: 0px;
 			margin-left	: 10px;
 			width				: 0;
@@ -99,7 +98,7 @@
 	.ball{
 		width: 40px;
 		height: 40px;
-		background: $wht;
+		background: rgba(#9ece56,1);
 		position: relative;
 		top: 150px;
 		-webkit-border-radius: 50%;

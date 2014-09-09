@@ -1,5 +1,8 @@
 .slide5-content-1{
 	background : rgba($dark-green,1);
+	ul{
+		list-style-type: none;
+	}
 	.slide-text-wrapper{
 		display          : flex;
 		flex-flow        : wrap row;
@@ -7,10 +10,17 @@
 
 		.easing-column1{
 			margin-top: 30px;
+			box-sizing: border-box;
+			width: 120px;
 			.examples-line{
 				margin-bottom : 10px;
 				height        : 50px;
+				width: 100%;
 				.ease-keyword{
+					cursor: pointer;
+					&:hover {
+						
+					}
 				}
 			}
 		}
@@ -20,8 +30,8 @@
 			flex-flow   : wrap row;
 			position    : relative;
 			overflow    : hidden;
-			height      : 450px;
-
+			height      : 430px;
+			padding-top: 10px;
 
 			.easing-phases{
 				font-size    : 1.1em;
@@ -64,6 +74,7 @@
 					text-align : left;
 					opacity    : .5;
 					font-size  : 1.0em;
+					margin-top: -13px;
 				}
 			}
 			.easing-begin{
@@ -197,4 +208,51 @@
 			border-top   : 20px solid rgba($blk,.5);
 		}
 	}
+}
+
+.info-box{
+	width: 150px;
+	height: 50px;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+	margin-top: -5px;
+	img{
+		width: 16px;
+		margin: 0;
+		opacity: .5;
+		z-index: 2;
+		cursor: pointer;
+		&:hover{
+			opacity: 1;
+		}
+		&:hover + figcaption{
+			left: -120px;
+			z-index: 1;
+			opacity: 1;
+		}
+	}
+	figcaption{
+		position: relative;
+		font-size: .8rem;
+		width: 90px;
+		background: rgba($blk,.5);
+		padding-left:6px;
+		line-height: 15px;
+		margin: 0;
+		left: -110px;
+		z-index: -1;
+		transition: all .1s ease-in;
+		opacity: 0;
+	}
+
+	img,figcaption{
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+.info-box,.ease-keyword{
+	display: inline-block;
+	vertical-align: top;
 }
