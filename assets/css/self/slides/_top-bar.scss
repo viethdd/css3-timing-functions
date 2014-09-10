@@ -74,6 +74,7 @@
 			height     : 40px;
 			background : #000;
 			opacity    : 1;
+			padding-top: 3px; 
 			.btn-number-circle{
 				width     : 25px;
 				height    : 25px;
@@ -96,7 +97,7 @@
 				font-size    : 0;
 				line-height  : 0;
 				transform    : rotate(135deg);
-				margin-top   : -33px;
+				margin-top   : -36px;
 				float        : right;
 				position     : relative;
 				left         : 0px;
@@ -106,7 +107,7 @@
 				color       : #fff;
 				font-size   : 1.1em;
 				position    : relative;
-				top         : -35px;
+				top         : -33px;
 				word-break  : keep-all;
 			}
 		}
